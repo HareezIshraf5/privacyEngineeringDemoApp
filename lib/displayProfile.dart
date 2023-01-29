@@ -57,13 +57,7 @@ class displayProfile extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        // MyEncryptionDecryption.decryptAES(
-                        //     "tPSyHcc6g4OnQqgemI4qjQ=="),
-                        //documentSnapshot['Name'],
-                        //text("d"),
                         'Name                     :      ${documentSnapshot['Name']}',
-                        //getText(documentSnapshot),
-
                         style: TextStyle(fontSize: 16),
                       ),
                     ),
